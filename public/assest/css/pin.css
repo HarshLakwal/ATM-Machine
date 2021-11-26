@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+body hr{
+    position: relative;
+    left: 642px;
+    top: 27px;
+    margin-bottom: 45px;
+    width: 150px;
+    border: 0.1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: -20px;
+    padding-top:3px ;
+    background: radial-gradient(#0febf6 3.36%, #d012ff);
+}
+body{
+  
+    background: rgba(0, 0, 0, 0.27)url("../images/front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-blend-mode: darken;
+    
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form h1{
+    color: white;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+    margin: 20px 0px;
+}
+.form{
+    margin: 100px auto;
+    width: 388px;
+    border-radius: 5px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 15px;
+    padding-top: 33px;
+}
+.form hr{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 95px;
+    position: relative;
+    top: -16px;
+}
+ .form label{
+     color: white;
+     letter-spacing: 1px;
+     margin-top: 3px;
+     margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+ }
+ .form input{
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    padding: 0px 0px;
+    background: transparent;
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 9px 0; 
+    text-align: center;
+}
+
+.form input::placeholder{
+    color: white;
+    font-size: 20px;
+
+}
+.form button{
+    position: relative;
+    left: 123px;
+    top: 35px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid dodgerblue;
+    padding: 10px 35px;
+    transition: 1s;
+    font: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.form button:hover{
+    background: linear-gradient(21deg, #1de9f4 18.07%, #930fb5);
+    
+}

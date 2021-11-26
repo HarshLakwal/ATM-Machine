@@ -1,0 +1,63 @@
+.menuContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.Info a{
+    text-decoration: none;
+    display: block;
+   
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 79px 10px 72px 5px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Deposit a{
+    text-decoration: none;
+    display: block;
+   
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 79px 10px 72px 5px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Withdrawal a{
+    text-decoration: none;
+    display: block;
+   
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 79px 10px 72px 5px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Pin_Change a{
+    text-decoration: none;
+    display: block;
+   
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 79px 10px 72px 5px;
+    text-align: center;
+    padding-top: 20px;  
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}

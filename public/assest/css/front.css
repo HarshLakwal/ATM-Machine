@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.61) url("../images/front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    
+    background-blend-mode: darken;
+}
+#english{
+    text-decoration: none;
+    display: block;
+    margin: 250px auto;
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+}
+#hindi{
+    text-decoration: none;
+    display: block;
+    margin: 0px auto;
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}

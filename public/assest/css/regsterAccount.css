@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.27)url("../images/front.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    background-blend-mode: darken;
+    font-family: sans-serif;
+    
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form h1{
+    color: white;
+    letter-spacing: 1px;
+    font-family:Nunito+Sans ;
+    
+}
+.form{
+    position: relative;
+    top: 100px;
+    width: 405px;
+    border-radius: 5px;
+    height: 570px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.form form{
+    padding-left: 20px;
+}
+.form hr{
+    left: -74px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 227px;
+    position: relative;
+    top: -15px;
+}
+ .form label{
+     color: white;
+     letter-spacing: 1px;
+     margin-top: 3px;
+     margin-bottom: 5px;
+ }
+.form input{
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    padding: 10px 80px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:Nunito+Sans ;
+    
+}
+
+.form input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.form button{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid dodgerblue;
+    padding: 10px 30px;
+    
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.form button:hover{
+    background: linear-gradient(21deg, #1de9f4 18.07%, #930fb5);
+    
+}
+h5{
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: none;
+    color: white;
+}
+h5 a{
+    font-size: 15px;
+   
+}
+h5 a:hover{
+   color: turquoise;
+}
+

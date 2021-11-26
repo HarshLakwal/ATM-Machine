@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.56)url(../images/Manu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-blend-mode: darken;
+    
+    
+}
+.Info a{
+    text-decoration: none;
+    display: block;
+    margin: 250px auto;
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Deposit a{
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Withdrawal a{
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Pin_change a{
+    text-decoration: none;
+    display: block;
+    margin: 0px auto;
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;  
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money-Diposit</title>
+    <link rel="stylesheet" href="/assest/css/deposit.css">
+    <link rel="stylesheet" href="/assest/css/pageMenu.css">
+</head>
+
+<body>
+    <h1>Deposit_Money</h1>
+    <hr>
+    <div class="menuContainer">
+        <div class="Info">
+            <a href="/myAccountinfo" id="Info">Account Info</a>
+        </div>
+        <div class="Deposit">
+            <a href="/Deposit" id="Deposit">Money Deposit</a>
+        </div>
+        <div class="Withdrawal">
+            <a href="/Withdrawal" id="withdrawal">Money Withdrawal</a>
+        </div>
+        <div class="Pin_Change">
+            <a href="pinChange" id="Pin">Pin Change</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="form">
+            <form action="/deposit" method="POST">
+                
+               
+                <label>Account No.</label>
+                <input placeholder="Enter A/C No." name="account">
+                <br>
+                <label> Enter Amount to be Deposit</label>
+                <input type="number" name="amount" placeholder="Enter Amount" required>
+                <br>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

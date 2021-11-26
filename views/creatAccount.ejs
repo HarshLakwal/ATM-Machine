@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat-Account</title>
+    <link rel="stylesheet" href="/assest/css/regsterAccount.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="form">
+            <form action="/creatAccount" method="POST">
+                <h1>Creat-Account</h1>
+                <hr>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <br>
+                <label>Age</label>
+                <input type="number" name="age" placeholder="Enter Your Age" required>
+                <br>
+                <label>City</label>
+                <input type="text" name="city" placeholder="Enter Your City" required>
+                <br>
+                <label>Address</label>
+                <input type="text" name="address" placeholder="Enter Your Address" required>
+                <br>
+                <label>Amount</label>
+                <input type="text " name="amount" placeholder="Enter Min Amount Rs. " required>
+                <br>
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Enter Password" required>
+                <br>
+                <button type="submit">CreatAccount</button>
+
+            </form>
+            <h5>Already have an Account?
+                <a id="Login" href="/login"> Login</a>
+            </h5>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

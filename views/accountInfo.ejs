@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Account-Info</title>
+    <link rel="stylesheet" href="/assest/css/infoTable.css">
+    <link rel="stylesheet" href="/assest/css/pageMenu.css">
+</head>
+<body>
+    <h1>Your Account info</h1>
+    <hr>
+    <div class="menuContainer">
+        <div class="Info">
+            <a href="/myAccountinfo" id="Info">Account Info</a>
+        </div>
+        <div class="Deposit">
+            <a href="/Deposit" id="Deposit">Money Deposit</a>
+        </div>
+        <div class="Withdrawal">
+            <a href="/Withdrawal" id="withdrawal">Money Withdrawal</a>
+        </div>
+        <div class="Pin_Change">
+            <a href="/pinChange" id="Pin">Pin Change</a>
+        </div>
+    </div>
+    
+    
+    <table class="table">
+        <thead>
+        <tr>
+            <th>A/CNo.:-<%=result._id%></th> 
+            <th>Name:-  <%=result.name%></th> 
+            <th>Age:-  <%=result.age%></th>
+            <th>City:-  <%=result.city%></th>
+            <th>Address:-  <%=result.address%></th>
+            <th>Available Balance:- <%=result.amount%>  </th>
+        </tr>
+        </thead>
+        
+        
+    </table>
+</body>
+</html>
